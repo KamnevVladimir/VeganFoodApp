@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Список ресторанов-->
+        <!--My places-->
         <scene sceneID="Ydu-YL-moa">
             <objects>
                 <tableViewController id="omp-kM-okU" customClass="MainViewController" customModule="VeganFoodApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="omp-kM-okU" id="ZGB-g9-PGg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Список ресторанов" id="RUg-7b-40e"/>
+                    <navigationItem key="navigationItem" title="My places" id="RUg-7b-40e"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8T5-se-HlM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,6 +43,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kQv-7G-pZf">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="24"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="omp-kM-okU" kind="relationship" relationship="rootViewController" id="wmw-kL-tgT"/>
