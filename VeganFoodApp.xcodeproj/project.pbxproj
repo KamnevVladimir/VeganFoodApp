@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		1578AFF12565D9F800B83078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578AFF02565D9F800B83078 /* AppDelegate.swift */; };
 		1578AFF32565D9F800B83078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578AFF22565D9F800B83078 /* SceneDelegate.swift */; };
-		1578AFF52565D9F800B83078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578AFF42565D9F800B83078 /* ViewController.swift */; };
 		1578AFF82565D9F800B83078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1578AFF62565D9F800B83078 /* Main.storyboard */; };
 		1578AFFA2565D9FA00B83078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1578AFF92565D9FA00B83078 /* Assets.xcassets */; };
 		1578AFFD2565D9FA00B83078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1578AFFB2565D9FA00B83078 /* LaunchScreen.storyboard */; };
+		1578B0072565DA1700B83078 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578B0062565DA1700B83078 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1578AFED2565D9F800B83078 /* VeganFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeganFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1578AFF02565D9F800B83078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1578AFF22565D9F800B83078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1578AFF42565D9F800B83078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1578AFF72565D9F800B83078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1578AFF92565D9FA00B83078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1578AFFC2565D9FA00B83078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1578AFFE2565D9FA00B83078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1578B0062565DA1700B83078 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		1578AFEF2565D9F800B83078 /* VeganFoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				1578B0062565DA1700B83078 /* MainViewController.swift */,
 				1578AFF02565D9F800B83078 /* AppDelegate.swift */,
 				1578AFF22565D9F800B83078 /* SceneDelegate.swift */,
-				1578AFF42565D9F800B83078 /* ViewController.swift */,
 				1578AFF62565D9F800B83078 /* Main.storyboard */,
 				1578AFF92565D9FA00B83078 /* Assets.xcassets */,
 				1578AFFB2565D9FA00B83078 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1578AFF52565D9F800B83078 /* ViewController.swift in Sources */,
+				1578B0072565DA1700B83078 /* MainViewController.swift in Sources */,
 				1578AFF12565D9F800B83078 /* AppDelegate.swift in Sources */,
 				1578AFF32565D9F800B83078 /* SceneDelegate.swift in Sources */,
 			);
